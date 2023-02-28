@@ -1,0 +1,36 @@
+/* styling for our elements */
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.layout *{
+    margin: 10px;    
+}
+
+input{
+    border-radius: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 10px;
+    color: blue;
+}
+
+button{
+    padding:10px;
+    border-radius: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: white;
+}
+
+p{
+    font-size: 20px;
+}
